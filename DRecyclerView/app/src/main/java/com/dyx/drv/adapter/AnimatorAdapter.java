@@ -13,6 +13,9 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 /**
  * Created by dayongxin on 2016/9/5.
  */
@@ -43,11 +46,12 @@ public class AnimatorAdapter extends RecyclerView.Adapter<AnimatorAdapter.Animat
     }
 
     public static class AnimatorViewHolder extends RecyclerView.ViewHolder {
+        @BindView(R.id.iv_image)
         ImageView ivImage;
 
         public AnimatorViewHolder(View itemView) {
             super(itemView);
-            ivImage = (ImageView) itemView.findViewById(R.id.iv_image);
+            ButterKnife.bind(this, itemView);
         }
     }
 }

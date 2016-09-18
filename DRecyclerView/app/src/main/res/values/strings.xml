@@ -2,4 +2,6 @@
     <string name="app_name">DRecyclerView</string>
     <string name="str_btn_rv_animator1">使用ItemAnimator1</string>
     <string name="str_btn_rv_animator2">使用ItemAnimator2</string>
+    <string name="str_btn_test">测试按钮</string>
+    <string name="loading">加载中...</string>
 </resources>

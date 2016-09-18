@@ -14,11 +14,8 @@
         android:id="@+id/btn_rv_animator1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/str_btn_rv_animator1" />
+        android:text="@string/str_btn_test"
+        android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_rv_animator2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/str_btn_rv_animator2" />
+
 </LinearLayout>
